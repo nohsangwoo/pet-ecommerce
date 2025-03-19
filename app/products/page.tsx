@@ -9,7 +9,7 @@ import { Search, Filter } from "lucide-react"
 export default function ProductsPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <MainNav />
+      
       <main className="flex-1">
         <div className="container px-4 md:px-6 py-6">
           <div className="flex flex-col md:flex-row gap-6">

@@ -43,16 +43,15 @@ export function MainNav() {
 
   // 병원 회원 메뉴
   const hospitalRoutes = [
-    ...commonRoutes,
     {
-      href: "/hospital/qr",
+      href: "/hospital/qr-codes",
       label: "QR 코드 관리",
-      active: pathname === "/hospital/qr",
+      active: pathname === "/hospital/qr-codes",
     },
     {
-      href: "/hospital/hours",
+      href: "/hospital/schedule",
       label: "영업시간 설정",
-      active: pathname === "/hospital/hours",
+      active: pathname === "/hospital/schedule",
     },
     {
       href: "/hospital/pricing",
@@ -73,7 +72,6 @@ export function MainNav() {
 
   // 관리자 메뉴
   const adminRoutes = [
-    ...commonRoutes,
     {
       href: "/admin/products",
       label: "상품 관리",

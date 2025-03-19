@@ -389,7 +389,7 @@ export default function HospitalMembersPage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <MainNav />
+      
       <main className="flex-1 container px-4 md:px-6 py-8">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
