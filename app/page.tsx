@@ -73,7 +73,7 @@ function ProductCard() {
     <div className="group relative overflow-hidden rounded-lg border">
       <div className="aspect-square overflow-hidden">
         <img
-          src="/products/1.png"
+          src="/products/1.webp"
           alt="Product"
           className="object-cover transition-transform group-hover:scale-105"
           width={400}
