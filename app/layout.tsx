@@ -33,5 +33,5 @@ import './globals.css'
 import { MainNav } from "@/components/main-nav"
 
 export const metadata = {
-      generator: 'v0.dev'
+      generator: 'ludgi'
     };
