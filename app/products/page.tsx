@@ -131,7 +131,7 @@ function ProductCard() {
     <Card className="overflow-hidden">
       <div className="aspect-square relative">
         <img
-          src="/placeholder.svg?height=300&width=300"
+          src="/products/2.webp"
           alt="Product"
           className="object-cover w-full h-full"
           width={300}
